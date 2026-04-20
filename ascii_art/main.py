@@ -72,8 +72,8 @@ def print_ascii_matrix(ascii_matrix, text_color):
 
     print(Style.RESET_ALL)
 
-filepath = "./test.jpg"
-subprocess.call(["imagesnap", filepath, "-w", "2"])
+filepath = "./pineapple.jpg"
+# subprocess.call(["imagesnap", filepath, "-w", "2"])
 
 img = Image.open(filepath)
 pixels = get_pixel_matrix(img, 1000)
